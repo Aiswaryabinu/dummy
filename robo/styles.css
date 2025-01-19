@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(138, 241, 186);
+}
+h1{
+    text-align: center;
+}
+.robobody{
+    position: absolute;
+    right:0;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    width: 100px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 35%;
+    background-color: white;
+    
+
+}
+
+.head{
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 40%;
+    background-color: white;
+    top: 70px;
+    left: 200px;
+    bottom: 350px;
+    right: 200px;
+    
+
+}
+.innerhead{
+    position: absolute;
+    margin: auto;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 40%;
+    background-color: rgb(45, 42, 42);
+    top: 10px;
+    left:10px;
+
+
+}
+.lefteye{
+  position: absolute;
+  top: 10px;
+  left: 48px;
+  border-radius: 100%;
+  transform: rotate(25deg);
+  width: 20px;
+  height: 20px;
+  background-color: white;
+    
+}
+.righteye{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 100%;
+    transform: rotate(25deg);
+    width: 20px;
+    height: 20px;
+    background-color: white;
+      
+  }
+  .lefthand{
+    position: relative;
+    top: 230px;
+    left: 257px;
+    bottom: 150px;
+    right: 90px;
+    border-radius: 100%;
+    transform: rotate(40deg);
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+
+
+  }
+  .righthand{
+    position: relative;
+    top: 190px;
+    left: 425px;
+    bottom: 400px;
+    right: 85px;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+
+  }
